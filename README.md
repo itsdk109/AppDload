@@ -1,4 +1,4 @@
-**Android App Downloader**
+# **Android App Downloader**
 
 **Description:**
 The Android App Downloader is a Python script created to simplify the process of downloading Android apps from the Google Play Store. It provides a convenient and efficient way to obtain APK files for your favorite apps. By running this script with Python 3, you can quickly and easily access the APK files for your desired Android applications. The script requires 'Python3' and the 'google_play_scraper' and 'requests' libraries for it to function effectively.
