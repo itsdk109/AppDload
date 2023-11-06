@@ -24,6 +24,10 @@ Before using this script, ensure you have the following prerequisites in place:
    ```
    pip install requests
    ```
+4. **Other** if you do not want to install all libraries one by one, you can install them at once by running:
+    ```
+    pip install requirements.txt
+    ```
 
 **Note:**
 This script is tested and confirmed to work with Python version 3.10.12. It is recommended to use this specific Python version for optimal performance and compatibility.
