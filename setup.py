@@ -23,7 +23,7 @@ def print_banner():
 =       # #  # #  # #       #  # # # #  #                              =
 =       # #  # #  ##        #  ### ###  #####                          =
 =     xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx                         =
-=     x        Android AAPs Downlaoder       x                         =
+=     x        Android APPs Downlaoder       x                         =
 =     xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx                         =
 =                                                                      =
 =   Written by Learn Tech With Deepak                                  =
