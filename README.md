@@ -41,13 +41,10 @@ To use the Android App Downloader, simply execute the script by running the foll
    ```bash
    python3 setup.py
    ```
-# For Windows users:
-
-    -Download this tool by clicking here and extracting the contents to a folder of your choice.
-
-    -Open the command prompt and navigate to the folder where you extracted the tool.
-
-    -Execute the script by running the following command:
+**For Windows users:**
+- Download this tool by clicking here and extracting the contents to a folder of your choice.
+- Open the command prompt and navigate to the folder where you extracted the tool.
+- Execute the script by running the following command:
 
 ```command
 python3 setup.py
