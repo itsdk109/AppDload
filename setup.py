@@ -27,6 +27,7 @@ def print_banner():
 =     xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx                         =
 =                                                                      =
 =   Written by Learn Tech With Deepak                                  =
+=   Youtube Channel: @learntechwithdeepak                              =
 =   YouTube: https://www.youtube.com/channel/UCq6THg2VnvaKWnOPF7FGmLw  =
 ========================================================================   
     '''
