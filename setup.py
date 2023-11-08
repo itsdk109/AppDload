@@ -7,9 +7,9 @@ import os
 def main():
     system_username = os.getlogin()
     print_banner()
-
-    package_name = input("Please type or paste the package name of the app you want to download: ")
-
+    print("\U0001F449 Please type or paste the package name of the app")
+    package_name = input("you want to download: ")
+    print(" ")
     app_info = get_app_info(package_name)
     
     if app_info:
@@ -61,8 +61,10 @@ def download_and_save_apk(app_info, system_username):
     if response.status_code == 200:
         with open(f'{app_name}.apk', 'wb') as apk_file:
             apk_file.write(response.content)
-            print(f"Congratulations! Mr. {system_username} ):")
+            print(f"\U000F60A Congratulations! Mr. {system_username} ):")
             print(f"'{app_name}' is Downloaded Successfully.....")
+            print(" ")
+            print("Thanks You! Mr. {system_username}")
     else:
         print("Failed to download APK....")
 
