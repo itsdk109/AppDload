@@ -63,3 +63,4 @@ def download_and_save_apk(app_info):
 
 if __name__ == "__main__":
     main()
+    
