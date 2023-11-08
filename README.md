@@ -7,7 +7,7 @@ The Android App Downloader is a Python script created to simplify the process of
 To use the Android App Downloader, simply execute the script by running the following command in your terminal or command prompt:
 
 ```
-python3 android_apk_downloader.py
+python3 setup.py
 ```
 
 **Requirements:**
