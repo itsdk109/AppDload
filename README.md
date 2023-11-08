@@ -1,9 +1,10 @@
 # Android App Downloader Tool
 
-**Description:**
+## **Description:**
 The Android App Downloader is a Python script created to simplify the process of downloading Android apps from the Google Play Store. It provides a convenient and efficient way to obtain APK files for your favorite apps. By running this script with Python 3, you can quickly and easily access the APK files for your desired Android applications. The script requires 'Python 3' and the 'google_play_scraper' and 'requests' libraries to function effectively.
 
-**Requirements:**
+## **Requirements:**
+
 Before using this script, ensure you have the following prerequisites in place:
 
 1. **Python 3:** Make sure you have Python 3 installed on your system to run the script. You can download Python from the [official website](https://www.python.org/downloads/).
@@ -21,7 +22,7 @@ Before using this script, ensure you have the following prerequisites in place:
     pip install -r requirements.txt
     ```
 
-**Usage:**
+## **Usage:**
 To use the Android App Downloader, simply execute the script by running the following command in your terminal or command prompt:
 
 **For Linux users:**
@@ -50,7 +51,7 @@ To use the Android App Downloader, simply execute the script by running the foll
 python3 setup.py
 ```
 
-**Note:**
+## **Note:**
 This script is tested and confirmed to work with Python version 3.10.12. It is recommended to use this specific Python version for optimal performance and compatibility.
 
 The Android App Downloader simplifies the process of acquiring Android app APK files, making it a valuable tool for users who prefer to download apps outside of the Google Play Store or need APK files for various purposes. Enjoy the convenience of easily obtaining your favorite Android apps with this Python script.
