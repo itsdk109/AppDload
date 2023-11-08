@@ -1,8 +1,11 @@
 #!/usr/bin/python3
 import requests
 from google_play_scraper import app
+import os
+
 
 def main():
+    system_username = os.getlogin()
     print_banner()
 
     package_name = input("Please type or paste the package name of the app you want to download: ")
@@ -10,7 +13,7 @@ def main():
     app_info = get_app_info(package_name)
     
     if app_info:
-        download_and_save_apk(app_info)
+        download_and_save_apk(app_info, system_username)
     else:
         print(f"App with package name '{package_name}' not found on Google Play Store.")
 
@@ -46,7 +49,7 @@ def get_app_info(package_name):
         print(f"Error: {str(e)}")
         return None
 
-def download_and_save_apk(app_info):
+def download_and_save_apk(app_info, system_username):
     app_url = app_info.get('url')
     app_name = app_info.get('title', 'UnknownApp')
 
@@ -58,7 +61,8 @@ def download_and_save_apk(app_info):
     if response.status_code == 200:
         with open(f'{app_name}.apk', 'wb') as apk_file:
             apk_file.write(response.content)
-            print(f"APK for '{app_name}' downloaded successfully.")
+            print(f"Congratulations! Mr. {system_username} ):")
+            print(f"'{app_name}' is Downloaded Successfully.....")
     else:
         print("Failed to download APK....")
 
