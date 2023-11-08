@@ -59,7 +59,7 @@ def download_and_save_apk(app_info):
             apk_file.write(response.content)
             print(f"APK for '{app_name}' downloaded successfully.")
     else:
-        print("Failed to download APK.")
+        print("Failed to download APK....")
 
 if __name__ == "__main__":
     main()
