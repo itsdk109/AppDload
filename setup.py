@@ -43,6 +43,8 @@ def print_banner():
     print(banner)
     print(" ")
 
+
+
 # Define a function to get app info based on package name
 def get_app_info(package_name):
     try:
@@ -70,7 +72,7 @@ def download_and_save_apk(app_info, system_username):
         with open(f'{app_name}.apk', 'wb') as apk_file:
             apk_file.write(response.content)
             print(" ")
-            print(f"--> Congratulations! Mr. {system_username}, Your '{app_name}' is Downloaded Successfully.....")
+            print(f"Congratulations! \nMr. {system_username}, Your '{app_name}' is Downloaded Successfully.")
             print(" ")
             print(f"Thanks for using it, Mr. {system_username}")
     else:
@@ -80,4 +82,4 @@ def download_and_save_apk(app_info, system_username):
 if __name__ == "__main__":
     print(" ")
     main()
-    
+ 
