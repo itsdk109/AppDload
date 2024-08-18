@@ -1,7 +1,6 @@
 # Android App Downloader Tool
 
 ## **Description:**
-# Android App Downloader
 Download Android apps directly as APK files with the **Android App Downloader**. This tool allows users to easily grab APKs for Android apps from the google playstore..
 
 ## Features
